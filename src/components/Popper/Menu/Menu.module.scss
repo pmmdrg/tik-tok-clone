@@ -1,0 +1,51 @@
+.menu {
+  width: 225px;
+
+  .menu-item {
+    margin-left: 0;
+  }
+}
+
+.menu-popper {
+  padding-bottom: 8px;
+}
+
+.menu-item {
+  width: 100%;
+  justify-content: flex-start;
+  border-radius: 0;
+  padding: 11px 12px;
+  background-color: transparent;
+  line-height: 1.8rem;
+  color: var(--text-white);
+
+  &:hover{
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+   
+  &.separate {
+    border-top: 1px solid var(--background-grey);
+  }
+}
+
+.header {
+  position: relative;
+  height: 50px;
+  margin-top: -8px;
+  display: flex;
+}
+
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) ;
+}
+
+.back-btn {
+  height: 100%;
+  width: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--text-white);
+}
